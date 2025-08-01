@@ -1,0 +1,20 @@
+﻿# IDE directories
+/.idea
+/.vs
+
+# General build directories
+/Debug/
+/Release/
+
+# Per project build directories
+/Zone/Debug
+/Zone/Release
+/Zone/x64
+
+/WorldManager/Debug
+/WorldManager/Release
+/WorldManager/x64
+
+/Client/Debug
+/Client/Release
+/Client/x64

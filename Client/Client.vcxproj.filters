@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Fiesta\Classes\NetMgr.h" />
+    <ClInclude Include="Fiesta\Pointers.h" />
+    <ClInclude Include="Fiesta\Structures.h" />
+    <ClInclude Include="Fiesta\Templates.h" />
+    <ClInclude Include="Patches\ClientName.h" />
+    <ClInclude Include="Utility\Logging\BaseLogger.h" />
+    <ClInclude Include="Utility\Logging\FileLogger.h" />
+    <ClInclude Include="Fiesta\Classes\GameFrameWork\GameFrameWork.h" />
+    <ClInclude Include="Fiesta\Classes\GameFrameWork\Pointers.h" />
+    <ClInclude Include="Fiesta\Classes\GameFrameWork\Types.h" />
+    <ClInclude Include="Fiesta\Classes\PgNet\PgNet.h" />
+    <ClInclude Include="Fiesta\Classes\PgNet\Pointers.h" />
+    <ClInclude Include="Fiesta\Classes\PgNet\Types.h" />
+    <ClInclude Include="Patches\RoarItemID.h" />
+    <ClInclude Include="Utility\HookRegistry.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Fiesta\Classes\NetMgr.cpp" />
+    <ClCompile Include="Fiesta\Classes\GameFrameWork\GameFrameWork.cpp" />
+    <ClCompile Include="Fiesta\Classes\PgNet\PgNet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Fiesta">
+      <UniqueIdentifier>{ce714c32-acdd-4607-888d-8b8b7fb7947b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{ea10f13d-eec2-49db-965a-fd00b863a33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Logging">
+      <UniqueIdentifier>{9a93b5c9-4c56-40ee-9d8d-b887ce6593ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Patches">
+      <UniqueIdentifier>{19c75fb6-7c68-401c-8f73-63fc0547e705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fiesta\Classes">
+      <UniqueIdentifier>{a970a84a-e076-40b1-8b83-a7691540ce02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fiesta\Functions">
+      <UniqueIdentifier>{c20890f1-1968-4444-a674-9f4c4acd7f63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
